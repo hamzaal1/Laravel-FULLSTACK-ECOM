@@ -1,0 +1,16 @@
+@import "@fortawesome/fontawesome-free/css/all.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+    display: none;
+}
+
+
+#sidebar::-webkit-scrollbar{
+    display: none;
+}
+#sidebar{
+    overflow-x: hidden;
+}
